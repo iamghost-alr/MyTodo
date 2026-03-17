@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #f5f7fa, #e4ecf7, #dbeafe);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+
+    background: rgba(0, 0, 0, 0.85);
+    color: white;
+
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.logo {
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #dbeafe;
+}
+
+h1 {
+    color: #111;
+    text-align: center;
+    margin-top: 60px;
+    font-size: 40px;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 30px auto;
+
+    background: white;
+    border-radius: 12px;
+    padding: 25px;
+
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+
+    border: 1px solid #ccc;
+    border-radius: 8px;
+
+    background: #f9f9f9;
+    color: #111;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+
+    border: none;
+    border-radius: 8px;
+
+    background: linear-gradient(135deg, #4facfe, #00c6ff);
+    color: white;
+    font-size: 16px;
+
+    cursor: pointer;
+    transition: 1s;
+}
+
+button:hover {
+    transform: scale(1.05);
+    transition: 1s;
+}
+
+table {
+    width: 90%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th {
+    background: #111;
+    color: white;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    color: #111;
+}
+
+tr:nth-child(even) {
+    background: #f2f2f2;
+}
+
+tr:hover {
+    background: #e6f0ff;
+}
+
+.btn-danger {
+    background: #ff4b2b;
+    color: white;
+    border: none;
+}
+
+.btn-danger:hover {
+    background: #ff2a00;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    color: #111;
+    margin-top: auto;
+}
+
+.todo-card {
+    background: #f9f9f9;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 10px;
+    border-left: 5px solid #007bff;
+    transition: 0.3s;
+}
+
+.todo-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.todo-card h3 {
+    margin-bottom: 5px;
+    color: #111;
+}
+
+.todo-card p {
+    color: #444;
+    font-size: 14px;
+}
+
+.todo-card small {
+    color: gray;
+}
+
+.actions {
+    margin-top: 10px;
+}
