@@ -8,7 +8,7 @@ This is a simple To-Do web application built using Python and Flask. You can add
 
 Setup
 
-1. Clone the repository.  
+1. Clone the repository or download the .zip folder any will work.
 2. Create a virtual environment: `python -m venv env`  
 3. Activate it:  
    - Windows: `env\Scripts\activate`  
